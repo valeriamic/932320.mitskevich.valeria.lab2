@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  border: 1px solid black;
+}
+p {
+  margin: 0;
+}
+
+@media screen and (max-width: 720px) {
+  img {
+    min-width: 75vw;
+  }
+}
+

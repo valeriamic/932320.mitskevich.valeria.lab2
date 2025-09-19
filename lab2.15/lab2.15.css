@@ -1,0 +1,19 @@
+.container{
+    margin: 0 auto;
+}
+
+.static{
+    display: inline-block;
+    margin: 16px;
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+.relative{
+    width: 100%;
+    background-color: bisque;
+    margin-bottom: 30px;
+}
+

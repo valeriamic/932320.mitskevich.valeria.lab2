@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    background-color: aqua;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.list{
+    width: 20%;
+    height: 100%;
+    background-color: bisque;
+}
+
+.text{
+    flex: 1;
+    margin: 0 5px;
+    background-color: darkgrey;
+}
+
+@media screen and (max-width: 720px) {
+    .container{
+        flex-direction: column;
+    }
+    .text{
+        margin: 0;
+        width: 70%;
+    }
+    .list{
+        min-width: 25vw;
+    }
+}

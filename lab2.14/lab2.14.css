@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+p{
+    margin: 0;
+}
+
+.list{
+    width: 26%;
+    height: 100%;
+    background-color: bisque;
+}
+
+
+.text{
+    flex: 1;
+    background-color: darkgrey;
+    height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .container{
+        flex-direction: column;
+    }
+    .list{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .list ul{
+        display: flex;
+        list-style: none;
+        gap: 5px;
+        margin: 0;
+    }
+}

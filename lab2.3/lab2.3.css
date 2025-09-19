@@ -1,0 +1,10 @@
+.centered-content {
+    width: 600px;
+    margin: 0 auto;
+    background-color: blue;
+    color: white;
+}
+
+p{
+    margin: 0;
+}

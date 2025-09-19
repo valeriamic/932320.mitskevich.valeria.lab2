@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+}
+
+header {
+    background-color: #EAEAEA;
+    padding-bottom: 50px;
+}
+header h1{
+    padding-left: 8px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.left-column {
+    width: 200px; 
+    padding: 0 8px;
+    height: 100%;
+    background-color: #ccff99;
+}
+
+.content {
+    flex: 1;
+    padding: 5px;
+}
+
+
+footer {
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    padding: 10px;
+}

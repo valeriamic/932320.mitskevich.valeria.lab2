@@ -1,0 +1,10 @@
+.centered-content {
+    width: 600px;
+    margin: 10px auto;
+    background-color: blue;
+    color: white;
+}
+
+img{
+    float: right;
+}

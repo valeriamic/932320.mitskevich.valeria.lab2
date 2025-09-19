@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+p {
+  margin: 0;
+}
+
+.list {
+  width: 21%;
+  height: 100%;
+  background-color: bisque;
+}
+
+.top-text {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+.text {
+  flex: 1;
+  background-color: darkgrey;
+  height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .list {
+    width: 28%;
+  }
+  .top-text {
+    display: block;
+  }
+  .top-text p {
+    float: left;
+  }
+  img {
+    width: 50%;
+    height: 10%;
+    float: right;
+  }
+}
